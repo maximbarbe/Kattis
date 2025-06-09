@@ -1,0 +1,1 @@
+q=lambda:input().split();q();t=[*map(int,q())];_={v:i for i,v in enumerate(sorted(t))};print(*[_[v] for v in t])

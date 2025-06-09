@@ -1,0 +1,1 @@
+from math import lcm;a,b,c,d=map(int,input().split());x=lcm(c,d);v=b//x;print(v-a//x) if x<a else print(v)
