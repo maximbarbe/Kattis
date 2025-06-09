@@ -1,0 +1,1 @@
+print(min([int(input())for i in[1]*int(input())]))

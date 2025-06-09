@@ -1,0 +1,1 @@
+print(max(0,min(v:=[*map(int,open(0))][1:])-max(v)//2))
