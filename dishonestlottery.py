@@ -1,0 +1,1 @@
+n=int(input());v=[_ for i in[1]*(10*n) for _ in map(int,input().split()) ];f={i:v.count(i) for i in set(v)};r=sorted([i for i in f if f[i]>2*n]);print(*r) if r else print(-1)

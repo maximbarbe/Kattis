@@ -1,0 +1,1 @@
+n=int(input());print(f"  {' '.join(['H']*n)}\n  {' '.join(['|']*n)}\nH-{'-'.join(['C']*n)}-OH\n  {' '.join(['|']*n)}\n  {' '.join(['H']*n)}")
