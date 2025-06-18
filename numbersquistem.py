@@ -1,0 +1,6 @@
+n = int(input())
+string = input().replace("<]:=", "0")
+string = string.replace(" ","")
+string = string.replace("/", "//")
+res = str(eval(string))
+print(res.replace("0", "<]:="))
