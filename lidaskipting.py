@@ -1,0 +1,1 @@
+print(("Jebb","Neibb")[int(input())%3!=0])
