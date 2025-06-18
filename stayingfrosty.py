@@ -1,0 +1,1 @@
+w,p=map(int, input().split());print(("NO","YES")[w<=360*p])
