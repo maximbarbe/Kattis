@@ -1,0 +1,1 @@
+n,e=map(int,input().split());x,s=str,2**e;print(sum([1 for i in range(s,n+1) if x(s) in x(i)]))
