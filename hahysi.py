@@ -1,0 +1,1 @@
+n,m=map(int,input().split());print((n*n-n)*(m*m-m)//4%(10**9+7))

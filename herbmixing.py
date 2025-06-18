@@ -1,0 +1,10 @@
+g,r=map(int,input().split())
+res=min(g,r)*10
+g-=min(g,r)
+r-=min(g,r)
+res+=10*(g//3)
+g%=3
+res+=3*(g//2)
+g%=2
+res+=g
+print(res)

@@ -1,0 +1,1 @@
+input();print("Unnar fann hana"+(" ekki!","!")[input() in input()])
