@@ -1,0 +1,1 @@
+n,a,b=map(int,input().split());v=["Fizz"*(i%a==0)+"Buzz"*(i%b==0)or i for i in range(1,n+1)];print(v.count("Fizz"),v.count("Buzz"),v.count("FizzBuzz"))

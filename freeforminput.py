@@ -1,0 +1,1 @@
+for _ in[*open(0)]:print(sum(map(eval,_.replace(" ","").split(",")))) 
