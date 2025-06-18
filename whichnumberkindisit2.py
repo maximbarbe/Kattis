@@ -1,0 +1,1 @@
+for k in[*map(int,open(0))][1:]:print("O"*(k&1)+"S"*(k**(0.5)//1==k**(0.5))or"EMPTY")
