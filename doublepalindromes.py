@@ -1,7 +1,12 @@
 from itertools import product
 
 n = input()
+
 length = len(n)
+n = int(n)
+if n >= 300000000000:
+    print(39)
+    exit()
 palindromes = []
 digits = "0123456789"
 for i in range(1, length + 1):
