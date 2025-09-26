@@ -1,0 +1,6 @@
+x, rest = input().split("d")
+y, z = rest.split("+")
+x = int(x)
+y = int(y)
+z = int(z)
+print((x + z + (x*y) + z)/2)
