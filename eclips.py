@@ -1,0 +1,1 @@
+print(*(v:=[w for w in input().split()if'e'in w],['oh noes'])[v==[]])
